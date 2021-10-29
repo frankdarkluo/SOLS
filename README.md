@@ -1,3 +1,5 @@
+This repo contains our model for dialogue-based relation extraction
+
 # Requirement
 ```
 python>=3.6
