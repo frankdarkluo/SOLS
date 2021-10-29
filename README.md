@@ -5,8 +5,6 @@ torch>=1.7.1
 CUDA >= 10.2
 ```
 
-# Overview of SOLS
-The architecture of our proposed SOLS.
 <p align="center">
 <img src="./fig/arc.png" width="50%" height="50%">
 </p>
