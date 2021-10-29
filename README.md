@@ -1,4 +1,6 @@
-This repo contains our model for dialogue-based relation extraction
+# Overview
+
+This repo contains the Pytorch implementation of our model for dialogue-based relation extraction.
 
 # Requirement
 ```
@@ -6,21 +8,6 @@ python>=3.6
 torch>=1.7.1 
 CUDA >= 10.2
 ```
-
-<p align="center">
-<img src="./fig/arc.png" width="50%" height="50%">
-</p>
-
-Overview of our proposed sampler. The sampler takes the contextualized representations of the $i$-th and $j$-th token as input and samples a continuous gate $\mathcal{G}_{ij}$ for them.
-<p align="center">
-<img src="./fig/sampler.png" width="50%" height="50%">
-</p>
-
-Overview of our proposed SOLS inducer and encoder. The inducer computes the dependency score between each two nodes in the dialogue. These learnable scores form two different latent graphs $\mathcal{G}^a$ and $\mathcal{G}^b$ for Speaker a and Speaker b, respectively. The two graphs will be fed into SOLS encoder for information aggregation.
-<p align="center">
-<img src="./fig/sols.png" width="50%" height="50%">
-</p>
-
 
 # Dataset
 
